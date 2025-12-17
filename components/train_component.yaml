@@ -1,7 +1,7 @@
 $schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
 name: train_decision_tree
 display_name: Train Decision Tree
-version: 2
+version: 3
 type: command
 description: Train a Decision Tree Classifier
 
@@ -34,11 +34,11 @@ outputs:
   metrics_output:
     type: uri_folder
 
-code: .
+code: ../src
 
 environment:
   image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04
-  conda_file: train_conda_env.yaml
+  conda_file: ../environments/train_conda_env.yaml
 
 command: >-
   python training.py 

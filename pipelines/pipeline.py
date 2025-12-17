@@ -23,7 +23,7 @@ def main():
     # Define the environment from conda.yaml
     env = Environment(
         image="mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04",
-        conda_file="conda.yaml",
+        conda_file="environments/conda.yaml",
         name="got-prepare-env",
         description="Environment for data preparation"
     )
@@ -46,7 +46,7 @@ def main():
             "test_data": Output(type="uri_folder"),
         },
         # The code is in the current directory
-        code="./",
+        code="./src",
         command="""python prepare_component.py \
             --input_folder ${{inputs.input_data}} \
             --target_col ${{inputs.target_col}} \

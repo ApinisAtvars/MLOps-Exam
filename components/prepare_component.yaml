@@ -1,7 +1,7 @@
 $schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
 name: prepare_data_component
 display_name: Prepare Data
-version: 1
+version: 2
 type: command
 description: Preprocess data for training (splits and one-hot encoding)
 
@@ -38,11 +38,11 @@ outputs:
     type: uri_folder
     description: Folder containing test data
 
-code: .
+code: ../src
 
 environment:
   image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04
-  conda_file: conda.yaml
+  conda_file: ../environments/conda.yaml
 
 command: >-
   python prepare_component.py 
