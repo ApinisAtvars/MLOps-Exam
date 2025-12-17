@@ -1,0 +1,7 @@
+$schema: https://azuremlschemas.azureedge.net/latest/computeInstance.schema.json
+name: cli-created-machine
+type: computeinstance
+size: STANDARD_DS3_V2
+
+idle_time_before_shutdown: PT30M
+idle_time_before_shutdown_minutes: 30

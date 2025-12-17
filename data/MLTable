@@ -1,0 +1,6 @@
+paths:
+  - file: ./got_persona_dataset_100.csv # I manually went into excel and saved as CSV
+transformations:
+  - read_delimited:
+      delimiter: ";"
+      header: all_files_same_headers

@@ -1,0 +1,53 @@
+$schema: https://azuremlschemas.azureedge.net/latest/pipelineJob.schema.json
+type: pipeline
+display_name: got-prepare-pipeline
+description: Pipeline to prepare GOT data
+experiment_name: got-prepare-pipeline
+
+# Define inputs
+inputs:
+  input_data:
+    type: mltable
+    path: azureml:mlops-exam-mltable@latest
+
+# Define settings
+settings:
+  default_compute: azureml:cli-created-machine
+
+# Define jobs (steps)
+jobs:
+  prepare_step:
+    component: azureml:prepare_data_component@latest
+    inputs:
+      input_data: ${{parent.inputs.input_data}}
+      target_col: "house_affiliation"
+      delimiter: ";"
+      test_size: 0.2
+      seed: 42
+      stratify: 1
+    outputs:
+      train_data: 
+        type: uri_folder
+      test_data: 
+        type: uri_folder
+
+  train_step:
+    component: azureml:train_decision_tree@latest
+    inputs:
+      train_ready: ${{parent.jobs.prepare_step.outputs.train_data}}
+      test_ready: ${{parent.jobs.prepare_step.outputs.test_data}}
+      target_col: "house_affiliation"
+      max_depth: 5
+    outputs:
+      model_output: 
+        type: uri_folder
+      metrics_output: 
+        type: uri_folder
+
+  register_step:
+    component: azureml://registries/azureml/components/register_model/versions/0.0.21
+    inputs:
+      model_path: ${{parent.jobs.train_step.outputs.model_output}}
+      model_name: "got-decision-tree"
+      model_type: "custom" # or "mlflow" if we logged it as mlflow model artifact, but here we are passing the folder
+

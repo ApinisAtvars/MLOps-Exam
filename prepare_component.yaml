@@ -1,0 +1,56 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
+name: prepare_data_component
+display_name: Prepare Data
+version: 1
+type: command
+description: Preprocess data for training (splits and one-hot encoding)
+
+inputs:
+  input_data: 
+    type: uri_folder
+    description: Input folder containing CSV data
+  target_col:
+    type: string
+    default: "house_affiliation"
+    description: Target column name
+  delimiter:
+    type: string
+    default: ","
+    description: CSV delimiter
+  test_size:
+    type: number
+    default: 0.2
+    description: Test set size ratio
+  seed:
+    type: integer
+    default: 42
+    description: Random seed
+  stratify:
+    type: integer
+    default: 1
+    description: Whether to stratify split (1=True, 0=False)
+
+outputs:
+  train_data:
+    type: uri_folder
+    description: Folder containing training data
+  test_data:
+    type: uri_folder
+    description: Folder containing test data
+
+code: .
+
+environment:
+  image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04
+  conda_file: conda.yaml
+
+command: >-
+  python prepare_component.py 
+  --input_folder ${{inputs.input_data}} 
+  --target_col ${{inputs.target_col}} 
+  --delimiter "${{inputs.delimiter}}" 
+  --test_size ${{inputs.test_size}} 
+  --seed ${{inputs.seed}} 
+  --stratify ${{inputs.stratify}} 
+  --out_train ${{outputs.train_data}} 
+  --out_test ${{outputs.test_data}}

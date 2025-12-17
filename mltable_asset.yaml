@@ -1,0 +1,6 @@
+$schema: https://azuremlschemas.azureedge.net/latest/data.schema.json
+name: mlops-exam-mltable
+description: Tabular data (converted from Excel) for AutoML
+type: mltable
+path: ./data  # Point to the folder, not the file
+version: 1

@@ -1,0 +1,53 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
+name: train_decision_tree
+display_name: Train Decision Tree
+version: 1
+type: command
+description: Train a Decision Tree Classifier
+
+inputs:
+  train_ready: 
+    type: uri_folder
+    description: Training data folder
+  test_ready:
+    type: uri_folder
+    description: Test data folder
+  target_col:
+    type: string
+    default: "house_affiliation"
+  max_depth:
+    type: integer
+    default: 5
+  min_samples_split:
+    type: integer
+    default: 2
+  min_samples_leaf:
+    type: integer
+    default: 1
+  random_state:
+    type: integer
+    default: 42
+
+outputs:
+  model_output:
+    type: uri_folder
+  metrics_output:
+    type: uri_folder
+
+code: .
+
+environment:
+  image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04
+  conda_file: train_conda_env.yaml
+
+command: >-
+  python training.py 
+  --train_ready ${{inputs.train_ready}} 
+  --test_ready ${{inputs.test_ready}} 
+  --target_col ${{inputs.target_col}} 
+  --max_depth ${{inputs.max_depth}} 
+  --min_samples_split ${{inputs.min_samples_split}} 
+  --min_samples_leaf ${{inputs.min_samples_leaf}} 
+  --random_state ${{inputs.random_state}} 
+  --model_output ${{outputs.model_output}} 
+  --metrics_output ${{outputs.metrics_output}}

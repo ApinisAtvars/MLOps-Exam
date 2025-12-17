@@ -1,0 +1,101 @@
+character_id;character_name;house_affiliation;region;primary_role;alignment;status;species;honour_1to5;ruthlessness_1to5;intelligence_1to5;combat_skill_1to5;diplomacy_1to5;leadership_1to5;trait_strategic;trait_impulsive;trait_charismatic;trait_vengeful;trait_loyal;trait_scheming;feature_set_version
+GOT-001;Jon Snow;None/Other;King's Landing;Commander;True Neutral;Alive;Human;2;2;4;3;4;2;1;0;1;0;0;1;1.0
+GOT-002;Daenerys Targaryen;Targaryen;Essos;Ruler;Neutral Evil;Alive;Human;2;4;2;2;3;4;0;0;1;1;0;0;1.0
+GOT-003;Tyrion Lannister;Lannister;The Westerlands;Advisor;True Neutral;Alive;Human;3;3;5;3;4;2;1;0;1;0;0;0;1.0
+GOT-004;Cersei Lannister;Lannister;The Westerlands;Ruler;Chaotic Evil;Alive;Human;1;5;4;4;5;3;1;0;1;1;0;1;1.0
+GOT-005;Jaime Lannister;Lannister;The Westerlands;Knight/Warrior;Chaotic Evil;Unknown/Varies;Human;2;5;4;3;3;2;1;0;0;1;0;1;1.0
+GOT-006;Arya Stark;Stark;The North;Advisor;Lawful Good;Deceased;Human;4;2;4;2;3;4;1;0;1;0;1;0;1.0
+GOT-007;Sansa Stark;Stark;The North;Advisor;Neutral Good;Deceased;Human;5;1;3;4;3;4;0;0;1;0;1;0;1.0
+GOT-008;Bran Stark;Stark;The North;Commander;Chaotic Neutral;Alive;Warg;5;3;3;2;4;4;0;0;1;0;1;0;1.0
+GOT-009;Robb Stark;Stark;The North;Merchant/Noble;Neutral Good;Deceased;Human;5;2;2;2;4;4;0;1;1;0;1;0;1.0
+GOT-010;Ned Stark;Stark;The North;Merchant/Noble;Chaotic Good;Deceased;Human;3;3;3;2;2;3;0;0;0;0;0;0;1.0
+GOT-011;Catelyn Stark;Stark;The North;Merchant/Noble;Lawful Neutral;Deceased;Human;3;2;4;3;4;5;1;0;1;0;0;0;1.0
+GOT-012;Theon Greyjoy;Greyjoy;Iron Islands;Commander;Lawful Good;Unknown/Varies;Human;3;4;4;4;2;2;1;0;0;1;0;0;1.0
+GOT-013;Jorah Mormont;Mormont;Essos;Knight/Warrior;Lawful Good;Alive;Human;5;2;2;4;3;3;0;1;0;0;1;0;1.0
+GOT-014;Samwell Tarly;Tarly;The Riverlands;Scholar/Healer;Chaotic Neutral;Deceased;Human;3;3;4;2;2;2;1;0;0;0;0;0;1.0
+GOT-015;Brienne of Tarth;Tyrell;The Reach;Advisor;Chaotic Evil;Deceased;Human;2;2;3;4;5;4;0;0;1;0;0;0;1.0
+GOT-016;Davos Seaworth;Stark;The North;Advisor;Lawful Good;Deceased;Human;4;2;2;4;3;3;0;1;0;0;1;0;1.0
+GOT-017;Stannis Baratheon;Baratheon;Dorne;Ruler;Chaotic Neutral;Alive;Human;4;3;3;4;1;3;0;0;0;0;1;0;1.0
+GOT-018;Robert Baratheon;Baratheon;Crownlands;Ruler;Chaotic Neutral;Alive;Human;2;2;2;4;1;5;0;0;1;0;0;0;1.0
+GOT-019;Renly Baratheon;Baratheon;The Westerlands;Ruler;Lawful Neutral;Deceased;Human;2;3;3;5;3;4;0;0;1;0;0;0;1.0
+GOT-020;Melisandre;Free Folk;Beyond the Wall;Mage/Seer;Neutral Good;Alive;Human;2;2;3;4;2;2;0;0;0;0;0;0;1.0
+GOT-021;Petyr Baelish;Night's Watch;The North;Assassin/Spy;Neutral Good;Alive;Human;3;1;3;3;1;2;0;0;0;0;0;0;1.0
+GOT-022;Varys;None/Other;The North;Assassin/Spy;Lawful Evil;Alive;Human;3;3;2;2;4;2;0;0;1;0;0;0;1.0
+GOT-023;Sandor Clegane;Lannister;The Westerlands;Merchant/Noble;Neutral Good;Unknown/Varies;Human;1;3;4;4;5;2;1;0;1;0;0;1;1.0
+GOT-024;Gregor Clegane;Greyjoy;Iron Islands;Advisor;Lawful Evil;Alive;Human;2;4;3;4;3;2;0;0;0;1;0;0;1.0
+GOT-025;Joffrey Baratheon;Baratheon;Crownlands;Ruler;Neutral Evil;Deceased;Human;2;4;2;3;2;4;0;0;1;1;0;0;1.0
+GOT-026;Margaery Tyrell;Tyrell;The Reach;Ruler;True Neutral;Alive;Human;2;2;4;3;5;3;1;0;1;0;0;1;1.0
+GOT-027;Olenna Tyrell;Tyrell;The Reach;Advisor;Neutral Good;Alive;Human;3;1;3;3;5;4;0;0;1;0;0;0;1.0
+GOT-028;Loras Tyrell;Tyrell;The Reach;Commoner;Lawful Good;Alive;Human;4;1;3;2;5;4;0;0;1;0;1;0;1.0
+GOT-029;High Sparrow;Stark;The North;Religious leader;Neutral Good;Unknown/Varies;Human;5;2;3;4;3;3;0;0;0;0;1;0;1.0
+GOT-030;Bronn;None/Other;The Reach;Advisor;Lawful Neutral;Deceased;Human;2;2;3;2;3;4;0;0;1;0;0;0;1.0
+GOT-031;Gendry;Tyrell;The Reach;Commoner;Chaotic Neutral;Deceased;Human;2;3;3;3;5;2;0;0;1;0;0;0;1.0
+GOT-032;Missandei;Tyrell;Essos;Advisor;Lawful Neutral;Alive;Human;3;2;4;2;5;3;1;0;1;0;0;0;1.0
+GOT-033;Grey Worm;Night's Watch;Essos;Commoner;Chaotic Neutral;Alive;Human;3;1;3;4;3;4;0;0;1;0;0;0;1.0
+GOT-034;Daario Naharis;Lannister;Essos;Commander;Chaotic Good;Unknown/Varies;Human;3;5;4;3;3;4;1;0;1;1;0;0;1.0
+GOT-035;Yara Greyjoy;Greyjoy;Iron Islands;Advisor;Neutral Evil;Alive;Human;1;4;3;5;3;4;0;0;1;1;0;0;1.0
+GOT-036;Euron Greyjoy;Greyjoy;Iron Islands;Commander;Lawful Neutral;Alive;Human;3;4;2;5;2;3;0;0;0;1;0;0;1.0
+GOT-037;Balon Greyjoy;Greyjoy;Iron Islands;Advisor;Lawful Evil;Alive;Human;2;4;4;3;2;3;1;0;0;1;0;1;1.0
+GOT-038;Asha Greyjoy (book);Greyjoy;Iron Islands;Commander;Chaotic Neutral;Deceased;Human;3;2;3;5;1;3;0;0;0;0;0;0;1.0
+GOT-039;Aeron Greyjoy;Greyjoy;Iron Islands;Knight/Warrior;Lawful Good;Alive;Human;2;3;3;4;1;4;0;0;1;0;0;0;1.0
+GOT-040;Victarion Greyjoy;Greyjoy;Iron Islands;Commoner;Chaotic Neutral;Deceased;Human;3;4;3;4;1;3;0;0;0;1;0;0;1.0
+GOT-041;Ramsay Bolton;Bolton;King's Landing;Commander;Neutral Evil;Deceased;Human;2;5;3;3;2;3;0;0;0;1;0;0;1.0
+GOT-042;Roose Bolton;Bolton;Beyond the Wall;Merchant/Noble;Neutral Evil;Deceased;Human;2;4;3;3;3;3;0;0;0;1;0;0;1.0
+GOT-043;Walder Frey;Frey;Essos;Ruler;Lawful Evil;Deceased;Human;1;4;3;2;3;3;0;0;0;1;0;0;1.0
+GOT-044;Edmure Tully;Tully;The Riverlands;Commander;Lawful Good;Deceased;Human;4;2;3;3;4;3;0;0;1;0;1;0;1.0
+GOT-045;Brynden Tully;Tully;The Riverlands;Advisor;Lawful Neutral;Deceased;Human;3;3;3;3;3;4;0;0;1;0;0;0;1.0
+GOT-046;Lysa Arryn;Arryn;The Vale;Merchant/Noble;Lawful Evil;Alive;Human;3;1;3;3;4;4;0;0;1;0;0;0;1.0
+GOT-047;Robin Arryn;Arryn;The Vale;Ruler;Chaotic Evil;Unknown/Varies;Human;3;1;2;3;3;4;0;0;1;0;0;0;1.0
+GOT-048;Yohn Royce;Night's Watch;The North;Knight/Warrior;Neutral Evil;Alive;Human;5;3;3;4;2;2;0;0;0;0;1;0;1.0
+GOT-049;Jaqen H'ghar;Lannister;The Westerlands;Assassin/Spy;Neutral Evil;Alive;Human;1;5;4;2;4;4;1;0;1;1;0;1;1.0
+GOT-050;Hodor;Night's Watch;The North;Commoner;Chaotic Evil;Alive;Human;3;1;3;3;1;3;0;0;0;0;0;0;1.0
+GOT-051;Tormund Giantsbane;Free Folk;Beyond the Wall;Commander;Neutral Good;Alive;Human;4;2;4;5;1;4;1;0;1;0;1;0;1.0
+GOT-052;Mance Rayder;Free Folk;Beyond the Wall;Knight/Warrior;Lawful Neutral;Alive;Human;4;3;4;4;2;3;1;0;0;0;1;0;1.0
+GOT-053;Ygritte;Free Folk;Beyond the Wall;Knight/Warrior;Chaotic Good;Unknown/Varies;Human;3;2;3;5;2;4;0;0;1;0;0;0;1.0
+GOT-054;Gilly;None/Other;Essos;Merchant/Noble;Lawful Evil;Alive;Human;3;2;3;2;3;2;0;0;0;0;0;0;1.0
+GOT-055;Maester Aemon;Night's Watch;The North;Scholar/Healer;Neutral Good;Alive;Human;4;3;3;4;3;2;0;0;0;0;1;0;1.0
+GOT-056;Qyburn;None/Other;The Stormlands;Scholar/Healer;Lawful Good;Deceased;Human;2;2;4;2;2;2;1;0;0;0;0;1;1.0
+GOT-057;Podrick Payne;Lannister;The Westerlands;Advisor;Lawful Evil;Unknown/Varies;Human;2;4;3;3;5;2;0;0;1;1;0;0;1.0
+GOT-058;Grenn;None/Other;The Reach;Advisor;Lawful Neutral;Alive;Human;2;2;3;3;4;3;0;0;1;0;0;0;1.0
+GOT-059;Pyp;Lannister;The Westerlands;Commander;True Neutral;Alive;Human;3;5;4;2;5;4;1;0;1;1;0;0;1.0
+GOT-060;Alliser Thorne;Night's Watch;The North;Commoner;Chaotic Neutral;Deceased;Human;3;2;2;3;2;3;0;0;0;0;0;0;1.0
+GOT-061;Jeor Mormont;Mormont;King's Landing;Merchant/Noble;Neutral Evil;Alive;Human;3;1;3;4;2;4;0;0;1;0;0;0;1.0
+GOT-062;Benjen Stark;Stark;The North;Commoner;Neutral Good;Alive;Human;4;1;4;2;3;5;1;0;1;0;1;0;1.0
+GOT-063;Oberyn Martell;Martell;Dorne;Merchant/Noble;True Neutral;Deceased;Human;2;2;5;4;4;3;1;0;1;0;0;1;1.0
+GOT-064;Ellaria Sand;Lannister;The Westerlands;Commander;Lawful Neutral;Alive;Human;3;4;5;3;4;3;1;0;1;1;0;0;1.0
+GOT-065;Doran Martell;Martell;Dorne;Ruler;Chaotic Evil;Alive;Human;3;2;4;4;3;3;1;0;0;0;0;0;1.0
+GOT-066;Trystane Martell;Martell;Dorne;Merchant/Noble;Neutral Good;Alive;Human;3;2;5;4;4;4;1;0;1;0;0;0;1.0
+GOT-067;Tyene Sand;Lannister;The Westerlands;Merchant/Noble;Lawful Neutral;Alive;Human;3;5;4;2;3;2;1;0;0;1;0;0;1.0
+GOT-068;Obara Sand;Tyrell;The Reach;Commander;True Neutral;Alive;Human;3;1;5;3;5;2;1;0;1;0;0;0;1.0
+GOT-069;Nymeria Sand;None/Other;The Reach;Commoner;Neutral Good;Alive;Human;3;3;2;2;4;3;0;0;1;0;0;0;1.0
+GOT-070;Areo Hotah;None/Other;Beyond the Wall;Commoner;Chaotic Evil;Deceased;Human;3;2;4;4;2;2;1;0;0;0;0;0;1.0
+GOT-071;Shae;Lannister;The Westerlands;Commoner;Lawful Evil;Unknown/Varies;Human;2;4;5;4;4;3;1;0;1;1;0;1;1.0
+GOT-072;Ros;None/Other;Beyond the Wall;Advisor;Neutral Evil;Deceased;Human;2;3;2;2;2;2;0;0;0;0;0;0;1.0
+GOT-073;Hot Pie;Greyjoy;Iron Islands;Knight/Warrior;Lawful Neutral;Alive;Human;1;3;3;4;2;4;0;0;1;0;0;0;1.0
+GOT-074;Septa Unella;Lannister;The Westerlands;Religious leader;True Neutral;Alive;Human;1;3;3;2;5;3;0;0;1;0;0;0;1.0
+GOT-075;Myranda;Greyjoy;Iron Islands;Knight/Warrior;Chaotic Neutral;Deceased;Human;2;2;3;4;2;4;0;0;1;0;0;0;1.0
+GOT-076;Osha;None/Other;The Westerlands;Commander;True Neutral;Deceased;Human;4;4;3;4;4;3;0;0;1;1;1;0;1.0
+GOT-077;Rickon Stark;Stark;The North;Advisor;Lawful Good;Alive;Human;4;2;2;4;3;5;0;1;1;0;1;0;1.0
+GOT-078;Meera Reed;Free Folk;Beyond the Wall;Knight/Warrior;Chaotic Evil;Alive;Human;3;3;3;4;1;4;0;0;1;0;0;0;1.0
+GOT-079;Jojen Reed;None/Other;The Reach;Knight/Warrior;Chaotic Evil;Alive;Human;3;4;3;3;4;3;0;0;1;1;0;0;1.0
+GOT-080;Hizdahr zo Loraq;None/Other;Essos;Advisor;True Neutral;Alive;Human;3;4;3;4;2;3;0;0;0;1;0;0;1.0
+GOT-081;Xaro Xhoan Daxos;Greyjoy;Essos;Commander;Neutral Good;Alive;Human;3;3;2;3;2;3;0;0;0;0;0;0;1.0
+GOT-082;Irri;None/Other;The Vale;Merchant/Noble;Neutral Evil;Unknown/Varies;Human;3;2;4;3;3;3;1;0;0;0;0;0;1.0
+GOT-083;Jhiqui;Lannister;The Westerlands;Merchant/Noble;Lawful Evil;Alive;Human;1;3;4;4;3;2;1;0;0;0;0;1;1.0
+GOT-084;Khal Drogo;Tyrell;The Reach;Commander;True Neutral;Deceased;Human;4;3;4;3;5;3;1;0;1;0;1;0;1.0
+GOT-085;Viserys Targaryen;Targaryen;Crownlands;Commoner;Lawful Evil;Deceased;Human;3;5;4;4;2;4;1;0;1;1;0;0;1.0
+GOT-086;Rhaegar Targaryen;Targaryen;King's Landing;Merchant/Noble;Lawful Good;Deceased;Human;4;4;4;4;3;3;1;0;0;1;1;0;1.0
+GOT-087;Aerys II Targaryen;Targaryen;The Stormlands;Commoner;Lawful Evil;Deceased;Human;4;5;3;3;3;5;0;0;1;1;1;0;1.0
+GOT-088;Lyanna Stark;Stark;The North;Advisor;Chaotic Evil;Deceased;Human;4;3;3;3;3;5;0;0;1;0;1;0;1.0
+GOT-089;Barristan Selmy;Night's Watch;The North;Advisor;True Neutral;Unknown/Varies;Human;5;3;4;2;1;3;1;0;0;0;1;0;1.0
+GOT-090;Beric Dondarrion;None/Other;The Vale;Merchant/Noble;Chaotic Neutral;Deceased;Human;4;3;2;2;3;2;0;1;0;0;1;0;1.0
+GOT-091;Thoros of Myr;Tyrell;The Reach;Knight/Warrior;Neutral Good;Deceased;Human;3;1;4;3;4;2;1;0;1;0;0;0;1.0
+GOT-092;The Night King;Night's Watch;The North;Ruler;Lawful Good;Deceased;White Walker;4;2;3;2;2;3;0;0;0;0;1;0;1.0
+GOT-093;Three-Eyed Raven;Greyjoy;Iron Islands;Mage/Seer;Lawful Evil;Deceased;Warg;2;2;3;4;2;3;0;0;0;0;0;0;1.0
+GOT-094;Eddison Tollett;Night's Watch;The North;Knight/Warrior;True Neutral;Alive;Human;3;2;3;2;2;3;0;0;0;0;0;0;1.0
+GOT-095;Meryn Trant;Free Folk;Beyond the Wall;Knight/Warrior;True Neutral;Deceased;Human;3;2;4;3;1;3;1;0;0;0;0;0;1.0
+GOT-096;Ilyn Payne;Lannister;The Westerlands;Commoner;Chaotic Good;Deceased;Human;1;3;3;4;5;3;0;0;1;0;0;0;1.0
+GOT-097;Maester Luwin;Night's Watch;The North;Scholar/Healer;Neutral Good;Alive;Human;4;2;3;3;3;2;0;0;0;0;1;0;1.0
+GOT-098;Yoren;Free Folk;Beyond the Wall;Commander;True Neutral;Unknown/Varies;Human;2;2;4;4;2;4;1;0;1;0;0;1;1.0
+GOT-099;Craster;Greyjoy;Iron Islands;Knight/Warrior;Lawful Evil;Unknown/Varies;Human;3;4;3;3;3;2;0;0;0;1;0;0;1.0
+GOT-100;Lancel Lannister;Lannister;The Westerlands;Commoner;Chaotic Evil;Deceased;Human;1;4;3;2;4;4;0;0;1;1;0;0;1.0
