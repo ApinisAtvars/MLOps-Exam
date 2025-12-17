@@ -79,9 +79,6 @@ os.makedirs(args.model_output, exist_ok=True)
 model_path = os.path.join(args.model_output, "model.joblib")
 joblib.dump(clf, model_path)
 
-# Log model to MLflow (optional, but good practice)
-mlflow.sklearn.log_model(clf, "model")
-
 # End run
 mlflow.end_run()
 
