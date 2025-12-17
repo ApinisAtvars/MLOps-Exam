@@ -54,9 +54,6 @@ report = classification_report(y_test, y_pred, output_dict=True, zero_division=0
 print(f"Accuracy: {acc}")
 print("Classification Report:", report)
 
-# Start MLflow run (it will attach to the current Azure ML run)
-mlflow.start_run()
-
 # Log params
 mlflow.log_param("max_depth", args.max_depth)
 mlflow.log_param("min_samples_split", args.min_samples_split)
@@ -78,9 +75,6 @@ for label, metrics in report.items():
 os.makedirs(args.model_output, exist_ok=True)
 model_path = os.path.join(args.model_output, "model.joblib")
 joblib.dump(clf, model_path)
-
-# End run
-mlflow.end_run()
 
 # Save metrics
 os.makedirs(args.metrics_output, exist_ok=True)

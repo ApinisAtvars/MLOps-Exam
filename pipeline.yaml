@@ -49,5 +49,5 @@ jobs:
     inputs:
       model_path: ${{parent.jobs.train_step.outputs.model_output}}
       model_name: "got-decision-tree"
-      model_type: "custom" # or "mlflow" if we logged it as mlflow model artifact, but here we are passing the folder
+      model_type: "custom_model" # Changed from "custom" to "custom_model"
 
